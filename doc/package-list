@@ -1,0 +1,12 @@
+com.dr.nlp.sl
+com.dr.nlp.sl.config
+com.dr.nlp.sl.config.test
+com.dr.nlp.sl.datastructure
+com.dr.nlp.sl.datastructure.helper
+com.dr.nlp.sl.datastructure.test
+com.dr.nlp.sl.executor
+com.dr.nlp.sl.executor.strategy
+com.dr.nlp.sl.executor.strategy.test
+com.dr.nlp.sl.task
+com.dr.nlp.sl.task.test
+com.dr.nlp.sl.test
