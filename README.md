@@ -65,8 +65,31 @@ class.
 `Sentence` - now also splits and holds `NamedEntity` Strings in the
 ArrayList<SentenceItem> on top of `Word` and `Punctuation` classes.
 
-####
+#### JUnit 4 Test Suite
 
+`com.dr.nlp.sl.test.TestSuite.java` - holds a number of Unit Tests.
+
+```java
+
+@Suite.SuiteClasses({
+   FeatureOneConfigTest.class,
+   FeatureTwoConfigTest.class,
+   NamedEntityTest.class,
+   ParagraphTest.class,
+   PunctuationTest.class,
+   SentenceTest.class,
+   TextFileTest.class,
+   WordTest.class,
+   NamedEntityListTest.class,
+   FileToArrayListStrategyTest.class,
+   FileToStringStrategyTest.class,
+   ObjectToXMLStrategyTest.class,
+   StringToObjectStrategyTest.class,
+   TaskRunnerTest.class
+   
+})
+
+```
 
 ## Feature One Assignment
 
@@ -161,15 +184,11 @@ expression to split input String into `Word`(s) and `Punctuation`(s).
 
 @Suite.SuiteClasses({
    FeatureOneConfigTest.class,
-   FeatureTwoConfigTest.class,
-   NamedEntityTest.class,
    ParagraphTest.class,
    PunctuationTest.class,
    SentenceTest.class,
    TextFileTest.class,
    WordTest.class,
-   NamedEntityListTest.class,
-   FileToArrayListStrategyTest.class,
    FileToStringStrategyTest.class,
    ObjectToXMLStrategyTest.class,
    StringToObjectStrategyTest.class,
